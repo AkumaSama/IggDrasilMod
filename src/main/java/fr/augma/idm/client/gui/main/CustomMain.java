@@ -37,7 +37,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 @SideOnly(Side.CLIENT)
 public class CustomMain extends GuiScreen {
 
-	private final ServerData server = new ServerData("iggdrasil", "51.68.21.1:14078", false);//"localhost"
+	private final ServerData server = new ServerData("iggdrasil", "localhost", false);//"51.68.21.1:14078"
 	private static final Logger LOGGER = LogManager.getLogger();
 	/** The Object object utilized as a thread lock when performing non thread-safe operations */
 	private final Object threadLock = new Object();

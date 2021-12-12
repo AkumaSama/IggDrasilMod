@@ -115,3 +115,6 @@ publishing {
         }
     }
 }
+
+// Comment the line below when you want to build
+// sourceSets {main { output.resourcesDir = output.classesDir }}

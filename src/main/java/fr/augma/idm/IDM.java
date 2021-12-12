@@ -24,7 +24,7 @@ import fr.augma.idm.util.ClassManager;
 import fr.augma.idm.util.IDMReferences;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = IDMReferences.MODID, name = IDMReferences.NAME, version = IDMReferences.VERSION)
+@Mod(modid = IDMReferences.MODID, name = IDMReferences.NAME, version = IDMReferences.VERSION, dependencies = "required-after:customnpcs")
 public class IDM {
 
     private static Logger logger;
