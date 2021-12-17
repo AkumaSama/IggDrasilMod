@@ -2,9 +2,9 @@ package fr.augma.idm.client.gui.iggdrasil.skill;
 
 import java.io.IOException;
 
+import fr.augma.idm.IDM;
 import org.lwjgl.input.Mouse;
 
-import fr.augma.idm.IDM;
 import fr.augma.idm.capability.IPlayerDataCap;
 import fr.augma.idm.capability.PlayerDataCapProvider;
 import fr.augma.idm.client.gui.globalbutton.GuiCrossButton;
@@ -78,7 +78,7 @@ public class GuiSkill extends GuiScreen {
 	public void drawButton(int bposx, int posy) {
 		int btnsize = 15;
 		this.buttonList.clear();
-		this.buttonList.add(new GuiAddButton(IDMReferences.VITALITY, bposx, posy + 72, btnsize, btnsize));
+		//this.buttonList.add(new GuiAddButton(IDMReferences.VITALITY, bposx, posy + 72, btnsize, btnsize));
 		if(this.cap.getAgility() != this.cap.getMaxAgility()) this.buttonList.add(new GuiAddButton(IDMReferences.AGILITY, bposx, posy + 91, btnsize, btnsize));
 		this.buttonList.add(new GuiAddButton(IDMReferences.CHANCE, bposx, posy + 111, btnsize, btnsize));
 		this.buttonList.add(new GuiAddButton(IDMReferences.STRENGTH, bposx, posy + 131, btnsize, btnsize));
